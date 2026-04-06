@@ -1,0 +1,31 @@
+.buzzer-btn {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: none;
+    background: linear-gradient(135deg, #ffffff, #888888);
+    cursor: pointer;
+    transition: var(--transition);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.15);
+    animation: buzzerPulse 1.5s infinite;
+}
+
+.buzzer-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.25);
+}
+
+.buzzer-btn:active {
+    transform: scale(0.9);
+}
+
+.buzzer-text {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #000000;
+    text-shadow: none;
+}

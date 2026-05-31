@@ -28,7 +28,7 @@ export default function Home() {
                         <Link to="/group-play" className="btn btn-outline btn-lg">🔔 Group Play</Link>
                     </div>
                     <div className="hero-stats">
-                        <div className="hero-stat"><span className="stat-num">6</span><span className="stat-label">Subjects</span></div>
+                        <div className="hero-stat"><span className="stat-num">6+</span><span className="stat-label">Subjects</span></div>
                         <div className="hero-stat"><span className="stat-num">60+</span><span className="stat-label">Questions</span></div>
                         <div className="hero-stat"><span className="stat-num">3</span><span className="stat-label">Quiz Modes</span></div>
                         <div className="hero-stat"><span className="stat-num">∞</span><span className="stat-label">Fun</span></div>

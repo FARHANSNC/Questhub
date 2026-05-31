@@ -33,7 +33,7 @@ export default function GroupPlay() {
     }, []);
 
     const connectSocket = () => {
-        const s = io('http://localhost:5000');
+        const s = io(import.meta.env.VITE_SOCKET_URL);
         socketRef.current = s;
         setSocket(s);
 

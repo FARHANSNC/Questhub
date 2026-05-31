@@ -18,7 +18,7 @@ const server = http.createServer(app);
 // Socket.IO
 const io = new Server(server, {
     cors: {
-        origin: process.env.CORS_ORIGIN || 'http://localhost:5173',
+        origin: process.env.CORS_ORIGIN || '*',
         methods: ['GET', 'POST'],
         credentials: true
     }
@@ -26,7 +26,7 @@ const io = new Server(server, {
 
 // Middleware
 app.use(helmet({ contentSecurityPolicy: false }));
-app.use(cors({ origin: process.env.CORS_ORIGIN || 'http://localhost:5173', credentials: true }));
+app.use(cors({ origin: process.env.CORS_ORIGIN || '*', credentials: true }));
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true }));
 app.use(morgan('dev'));

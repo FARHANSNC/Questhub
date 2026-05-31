@@ -20,7 +20,7 @@ router.post('/register', asyncHandler(async (req, res) => {
     }
 
     const user = await User.create({
-        username, email, password, fullName, role: 'student'
+        username, email, password, fullName
     });
 
     const token = generateToken(user._id);

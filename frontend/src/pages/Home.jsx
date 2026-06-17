@@ -85,8 +85,8 @@ export default function Home() {
 
             <footer className="footer">
                 <div className="container">
-                    <p>© 2025 QuestHub — Shibli National College, Azamgarh</p>
-                    <p className="footer-sub">Built by Farhan Ahmad, Mohd Wasiq, Mohd Laraib, Mohammad Tahshim, Mohammad Sharib</p>
+                    <p>© 2026 QuestHub — Shibli National College, Azamgarh</p>
+                    <p className="footer-sub">Built by github@FARHANSNC</p>
                 </div>
             </footer>
         </div>

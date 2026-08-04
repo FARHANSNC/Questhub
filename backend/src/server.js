@@ -59,8 +59,20 @@ app.use((err, req, res, next) => {
 require('./socket/index')(io);
 
 const PORT = process.env.PORT || 5000;
+const PUBLIC_URL = process.env.PUBLIC_URL || ''; // Set this in production
+
 server.listen(PORT, () => {
-    console.log(`\n🚀 QuestHub Server running on port ${PORT}`);
-    console.log(`📡 API: http://localhost:${PORT}/api`);
-    console.log(`🔌 WebSocket: ws://localhost:${PORT}`);
+    console.log(`\n📺 QuestHub Server running on port ${PORT}`);
+    
+    if (PUBLIC_URL) {
+        // Production environment
+        console.log(`📺 API: ${PUBLIC_URL}/api`);
+        // Handles both http->ws and https->wss automatically
+        const wsUrl = PUBLIC_URL.replace(/^http/, 'ws');
+        console.log(`📺 WebSocket: ${wsUrl}`);
+    } else {
+        // Local development — fallback to localhost
+        console.log(`📺 API: http://localhost:${PORT}/api`);
+        console.log(`📺 WebSocket: ws://localhost:${PORT}`);
+    }
 });

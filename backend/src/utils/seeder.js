@@ -26,27 +26,25 @@ const seedDatabase = async () => {
 
         // Create admin user
         const admin = await createUserSafe({
-            username: 'admin',
-            email: 'admin@questhub.com',
-            password: 'Admin@123',
-            fullName: 'Admin User',
+            username: process.env.ADMIN_USERNAME,
+            email: process.env.ADMIN_EMAIL,
+            password: process.env.ADMIN_PASSWORD,
+            fullName: 'Admin',
             role: 'admin'
         });
-
-        // Create regular user 1
+        // Seeding RegularUser1
         const teacher = await createUserSafe({
-            username: 'user_john',
-            email: 'john@questhub.com',
-            password: 'User@123',
-            fullName: 'John User',
+            username: process.env.USER1_EMAIL,
+            email: process.env.USER1_EMAIL,
+            password: process.env.USER1_PASSWORD,
+            fullName: 'John',
             role: 'user'
         });
-
-        // Create regular user 2
+        // Seeding RegularUser 2
         await createUserSafe({
-            username: 'farhan_ahmad',
-            email: 'farhan@questhub.com',
-            password: 'User@123',
+            username: process.env.USER2_USERNAME,
+            email: process.env.USER2_EMAIL,
+            password: process.env.USER2_PASSWORD,
             fullName: 'Farhan Ahmad',
             role: 'user'
         });

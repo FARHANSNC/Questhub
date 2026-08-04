@@ -56,10 +56,6 @@ const seedDatabase = async () => {
         if (existingSubjects > 0) {
             console.log('Subjects already seeded, skipping questions and quizzes...');
             console.log('\n✅ Seeding complete!');
-            console.log('\n📋 Login Credentials:');
-            console.log('   Admin:   admin@questhub.com / Admin@123');
-            console.log('   User 1:  john@questhub.com / User@123');
-            console.log('   User 2:  farhan@questhub.com / User@123');
             process.exit(0);
         }
 
@@ -209,11 +205,6 @@ const seedDatabase = async () => {
         console.log('Quizzes created!');
 
         console.log('\n✅ Database seeded successfully!');
-        console.log('\n📋 Login Credentials:');
-        console.log('   Admin:   admin@questhub.com / Admin@123');
-        console.log('   User 1:  john@questhub.com / User@123');
-        console.log('   User 2:  farhan@questhub.com / User@123');
-
         process.exit(0);
     } catch (error) {
         console.error('Seed Error:', error);

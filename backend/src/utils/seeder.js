@@ -37,7 +37,7 @@ const seedDatabase = async () => {
             username: process.env.USER1_EMAIL,
             email: process.env.USER1_EMAIL,
             password: process.env.USER1_PASSWORD,
-            fullName: 'John',
+            fullName: process.env.USER1_FULLNAME,
             role: 'user'
         });
         // Seeding RegularUser 2
@@ -45,7 +45,7 @@ const seedDatabase = async () => {
             username: process.env.USER2_USERNAME,
             email: process.env.USER2_EMAIL,
             password: process.env.USER2_PASSWORD,
-            fullName: 'Farhan Ahmad',
+            fullName: process.env.USER2_FULLNAME,
             role: 'user'
         });
 

@@ -100,9 +100,11 @@ ADMIN_PASSWORD=your_secure_admin_password
 USER1_USERNAME=user1_username
 USER1_EMAIL=user1@example.com
 USER1_PASSWORD=User1_password
+USER1_FULLNAME=fullname_user1
 USER2_USERNAME=user2_username
 USER2_EMAIL=user2@example.com
 USER2_PASSWORD=User2_password
+USER2_FULLNAME=fullname_user2
 ```
 
 Seed the database with demo data (optional but recommended):

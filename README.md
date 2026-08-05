@@ -10,7 +10,7 @@ A production-grade, full-stack quiz platform built with the MERN stack and Socke
 
 🔗 **Live Demo:** [queshub.netlify.app](https://queshub.netlify.app)
 
-> [!IMPORTANT] Backend is hosted on Render's free tier. First load after inactivity may take **30–50 seconds** to wake up — this is expected behaviour.
+>⚠️ **[!IMPORTANT]** Backend is hosted on Render's free tier. First load after inactivity may take **30–50 seconds** to wake up — this is expected behaviour.
 
 ---
 
@@ -46,7 +46,20 @@ A production-grade, full-stack quiz platform built with the MERN stack and Socke
 
 ## 📸 Screenshots
 
-> Add screenshots here — UI of home page, quiz interface, buzzer room, and dashboard
+### Home Page
+![Home Page](screenshots/home.png)
+
+### Quiz Interface
+![Quiz Interface](screenshots/quiz.png)
+
+### Buzzer Room
+![Buzzer Room](screenshots/buzzer.png)
+
+### Results Page
+![Results](screenshots/results.png)
+
+### Analytics Dashboard
+![Dashboard](screenshots/dashboard.png)
 
 ---
 

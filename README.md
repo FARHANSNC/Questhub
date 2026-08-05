@@ -1,4 +1,4 @@
-# QuestHub 🎯 — Smart Quiz Platform
+# QuestHub 🎯 - Smart Quiz Platform
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
@@ -10,23 +10,23 @@ A production-grade, full-stack quiz platform built with the MERN stack and Socke
 
 🔗 **Live Demo:** [queshub.netlify.app](https://queshub.netlify.app)
 
-> ⚠️ **Note:** Backend is hosted on Render's free tier. First load after inactivity may take **30–50 seconds** to wake up — this is expected behaviour.
+> [!IMPORTANT] Backend is hosted on Render's free tier. First load after inactivity may take **30–50 seconds** to wake up — this is expected behaviour.
 
 ---
 
 ## ✨ Features
 
 ### Three Quiz Modes
-- **Random Quiz** — Instant questions drawn from a mixed multi-subject pool
-- **Subject-Based Quiz** — Focused practice filtered by academic domain
-- **Group Buzzer Mode** — Real-time multiplayer competition where players race to buzz in first
+- **Random Quiz** - Instant questions drawn from a mixed multi-subject pool
+- **Subject-Based Quiz** - Focused practice filtered by academic domain
+- **Group Buzzer Mode** - Real-time multiplayer competition where players race to buzz in first
 
 ### Core Technical Features
-- **Server-side buzzer arbitration** — MongoDB atomic `findOneAndUpdate` eliminates race conditions when multiple players buzz simultaneously
-- **Stateless JWT authentication** — Same token validates both REST API requests and Socket.IO WebSocket handshakes
-- **Role-based access control** — Admin, Registered User, and Guest tiers with differentiated permissions
-- **Analytics dashboard** — Subject-wise performance, difficulty breakdowns, and live leaderboards via MongoDB aggregation pipelines
-- **Automated quiz evaluation** — Instant result generation with per-question feedback and explanations
+- **Server-side buzzer arbitration** - MongoDB atomic `findOneAndUpdate` eliminates race conditions when multiple players buzz simultaneously
+- **Stateless JWT authentication** - Same token validates both REST API requests and Socket.IO WebSocket handshakes
+- **Role-based access control** - Admin, Registered User, and Guest tiers with differentiated permissions
+- **Analytics dashboard** - Subject-wise performance, difficulty breakdowns, and live leaderboards via MongoDB aggregation pipelines
+- **Automated quiz evaluation** - Instant result generation with per-question feedback and explanations
 
 ---
 
@@ -125,6 +125,8 @@ Frontend runs at: `http://localhost:5173`
 | User | john@questhub.com | User@123 |
 | Guest | No login needed | Browse public quizzes |
 
+> **Note:** Admin access is restricted for security. If you need admin privileges for testing, please contact the author/@me or register a new account and manually assign the admin role in MongoDB Compass.
+
 ---
 
 ## 📁 Project Structure
@@ -219,7 +221,7 @@ Questhub/
 ---
 ## 💡 Why This Project?
 
-Built as my BCA final year project, QuestHub bridges the gap between traditional quiz platforms and gamified learning. It combines automated evaluation, real-time competition, and detailed performance tracking into one integrated system. I treated it as a production deployment from day one — not just a localhost project — to learn CORS configuration, environment management, WebSocket stability, and cold-start handling on free-tier hosting.
+Built as my BCA final year project, QuestHub bridges the gap between traditional quiz platforms and gamified learning. It combines automated evaluation, real-time competition, and detailed performance tracking into one integrated system. I treated it as a production deployment from day one , not just a localhost project - to learn CORS configuration, environment management, WebSocket stability, and cold-start handling on free-tier hosting.
 
 ---
 ## 👤 Author

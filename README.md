@@ -10,7 +10,7 @@ A production-grade, full-stack quiz platform built with the MERN stack and Socke
 
 🔗 **Live Demo:** [queshub.netlify.app](https://queshub.netlify.app)
 
->⚠️ **[!IMPORTANT]** Backend is hosted on Render's free tier. First load after inactivity may take **30–50 seconds** to wake up — this is expected behaviour.
+>⚠️ **[IMPORTANT]** Backend is hosted on Render's free tier. First load after inactivity may take **30–50 seconds** to wake up — this is expected behaviour.
 
 ---
 
@@ -87,11 +87,22 @@ npm install
 Create a `.env` file in the `backend/` folder:
 
 ```env
+NODE_ENV=development
 PORT=8080
-MONGODB_URI=your_mongodb_atlas_connection_string
+MONGODB_URL=your_mongodb_atlas_connection_string
 JWT_SECRET=your_jwt_secret_key
 JWT_EXPIRE=7d
 CORS_ORIGIN=http://localhost:5173
+PUBLIC_URL=http://localhost:8080
+ADMIN_USERNAME=admin
+ADMIN_EMAIL=admin@example.com
+ADMIN_PASSWORD=your_secure_admin_password
+USER1_USERNAME=user1_username
+USER1_EMAIL=user1@example.com
+USER1_PASSWORD=User1_password
+USER2_USERNAME=user2_username
+USER2_EMAIL=user2@example.com
+USER2_PASSWORD=User2_password
 ```
 
 Seed the database with demo data (optional but recommended):

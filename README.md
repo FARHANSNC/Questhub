@@ -114,14 +114,10 @@ Frontend runs at: `http://localhost:5173`
 ---
 
 ## 🔐 Demo Credentials
-
-After running the seeder, use these accounts to explore the platform:
-
 | Role | Email | Password |
 |---|---|---|
-| Admin | admin@questhub.com | Admin@123 |
 | User | john@questhub.com | User@123 |
-| User | farhan@questhub.com | User@123 |
+| Guest | No login needed | Browse public quizzes |
 
 ---
 

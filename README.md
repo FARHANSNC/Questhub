@@ -1,4 +1,10 @@
 # QuestHub 🎯 — Smart Quiz Platform
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white)
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
 
 A production-grade, full-stack quiz platform built with the MERN stack and Socket.IO. Features three distinct quiz modes including a real-time multiplayer buzzer system with server-side arbitration.
 
@@ -211,12 +217,16 @@ Questhub/
 - [ ] Multi-language support (Hindi, Urdu)
 
 ---
+## 💡 Why This Project?
 
+Built as my BCA final year project, QuestHub bridges the gap between traditional quiz platforms and gamified learning. It combines automated evaluation, real-time competition, and detailed performance tracking into one integrated system. I treated it as a production deployment from day one — not just a localhost project — to learn CORS configuration, environment management, WebSocket stability, and cold-start handling on free-tier hosting.
+
+---
 ## 👤 Author
 
 **Farhan Ahmad**
 - GitHub: [@FARHANSNC](https://github.com/FARHANSNC)
-- LinkedIn: [linkedin.com/in/farhan-ahmad-616a02343](https://www.linkedin.com/in/farhan-ahmad-616a02343)
+- LinkedIn: [linkedin.com/in/snicfarhan](https://www.linkedin.com/in/snicfarhan)
 - Live Project: [queshub.netlify.app](https://queshub.netlify.app)
 
 BCA Student — Maharaja Suhel Dev State University, Azamgarh

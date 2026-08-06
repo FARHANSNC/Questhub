@@ -253,7 +253,7 @@ Built as my BCA final year project, QuestHub bridges the gap between traditional
 ## 👤 Author
 
 **Farhan Ahmad**
-- GitHub: [@FARHANSNC](https://github.com/FARHANSNC)
+- GitHub: [@snicfarhan](https://github.com/snicfarhan)
 - LinkedIn: [linkedin.com/in/snicfarhan](https://www.linkedin.com/in/snicfarhan)
 - Live Project: [queshub.netlify.app](https://queshub.netlify.app)
 
